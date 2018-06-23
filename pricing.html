@@ -38,8 +38,8 @@
                                 <a class="nav-link h4 pt-3" href="process.html">How it Works</a>
                             </li> -->
                             <li class="nav-item">
-                                <a class="nav-link h4 pt-3" href="#"> <button class="btn btn-info btn-lg p-3 font-weight-bold"> Contact Us</button></a>
-                            </li>
+                              <a class="nav-link h4 pt-3" href="#"> <button class="btn btn-info btn-lg p-3 font-weight-bold" data-toggle="modal" data-target="#exampleModalCenter"> Contact Us</button></a>
+                          </li>
                         </ul>
                 </div>
             </nav>
@@ -146,28 +146,32 @@
       </footer>
       
 
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close btn-warning" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                <div class="p-5 text-center">
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+              <button type="button" class="close btn-warning" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="p-5 text-center">
                   <p class="h1 display-3 text-center">Online Ordering Coming Soon</p>
                   <p class="text-center h5 text-muted pb-4">Convenience just got a whole lot easier.</p>
                   <p class="text-center">If you’re anything like us, you’d rather be doing anything other than laundry. It’s time-consuming and—as anyone who’s ever ruin their favorite shirt knows—surprisingly stressful. </p>
                   <a href="https://mailchi.mp/59d1923f9bc8/laundryexpress">
-                      <button class="btn btn-info btn-lg p-3 mt-3">
-                          <p class="text-center h4 text-white">Let us take the load off your hands!</p>
+                      <button class="btn btn-info p-3 mt-3">
+                         <span class="text-center text-white">Let us take the load off your hands!</span> 
                       </button>
                   </a> 
               </div>
-              </div>
-            </div>
+              <button type="button" class="close btn-warning mr-3 p-3 " data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><small><u>No. I love doing laundry!</u></small></span>
+              </button>
           </div>
-        </div>
-      
+      </div>
+  </div>
+</div>
+
 
 
 
